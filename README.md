@@ -48,10 +48,10 @@ Users should be able to:
 I guess using the srcset to change the image shown depending on the view is very eye-opening to me HAHA.
 
 ```
-        <picture class="product__image">
-          <source srcset="images/image-product-mobile.jpg" media="(max-width: 600px)">
-          <img src="images/image-product-desktop.jpg" alt="Product image">
-        </picture>
+<picture class="product__image">
+  <source srcset="images/image-product-mobile.jpg" media="(max-width: 600px)">
+  <img src="images/image-product-desktop.jpg" alt="Product image">
+</picture>
 ```
 
 ### Continued development
