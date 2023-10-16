@@ -118,6 +118,7 @@ button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  gap: 0.875rem;
   cursor: pointer;
   text-align: center;
   background-color: var(--clr-accent);
@@ -133,6 +134,13 @@ button:focus {
   color: var(--clr-primary);
 }
 
+.button[data-attribute="cart"]::before {
+  content: "";
+  background-image: url("images/icon-cart.svg");
+  height: 16px;
+  width: 15px;
+}
+
 /* DESKTOP VIEW */
 
 @media (min-width: 600px) {
@@ -143,6 +151,10 @@ button:focus {
   .product {
     display: grid;
     grid-template-columns: 50% 50%;
+  }
+
+  .product__content {
+    padding: 2.375rem;
   }
 }
 
