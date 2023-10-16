@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/MikSanty/product-preview-card-component-main](https://github.com/MikSanty/product-preview-card-component-main)
-- Live Site URL: [miksanty-product-preview-card.netlify.app](miksanty-product-preview-card.netlify.app)
+- Live Site URL: [https://miksanty-product-preview-card.netlify.app](https://miksanty-product-preview-card.netlify.app)
 
 ## My process
 
