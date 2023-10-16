@@ -127,7 +127,8 @@ button {
   transition: 0.3s ease-in-out;
 }
 
-button:hover {
+button:hover,
+button:focus {
   background-color: var(--clr-neutral);
   color: var(--clr-primary);
 }
